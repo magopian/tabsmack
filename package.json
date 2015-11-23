@@ -1,10 +1,17 @@
 {
+  "title": "Tabsmack",
   "name": "tabsmack",
-  "title": "tabsmack",
-  "id": "jid1-CzCFymQL7Znp9g",
-  "description": "Smack the active tab and move it to the end of the tab list",
+  "id": "jid1-CzCFymQL7Znp9g@jetpack",
+  "version": "0.5.0",
+  "description": "Smack the active tab and move it to the beginning or end of the tab list",
+  "main": "index.js",
   "author": "Mathieu Agopian",
-  "license": "MPL 2.0",
-  "version": "0.2",
-  "homepage": "https://github.com/magopian/tabsmack"
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MPL2.0",
+  "permissions": {"multiprocess": true},
+  "keywords": [
+    "jetpack"
+  ]
 }
