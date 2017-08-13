@@ -1,0 +1,25 @@
+{
+  "name": "Tabsmack",
+  "description": "Smack the active tab and move it to the beginning or end of the tab list.",
+  "homepage_url": "https://github.com/nbp/tabsmack/",
+  "manifest_version": 2,
+  "version": "0.6.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "commands": {
+    "move-to-front": {
+      "suggested_key": { "default": "Ctrl+Shift+Home" },
+      "description": "Send the active tab to front of the list of tabs."
+    },
+    "move-to-back": {
+      "suggested_key": { "default": "Ctrl+Shift+End" },
+      "description": "Send the active tab to back of the list of tabs."
+    }
+  }
+}
